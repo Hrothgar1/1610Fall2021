@@ -1,9 +1,9 @@
-using UnityEngine
-    using System.Collections;
+using UnityEngine;
+using System.Collections;
 
 public class ExampleBehaviourScript : MonoBehaviour
 {
-    void Update ()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
@@ -15,7 +15,7 @@ public class ExampleBehaviourScript : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.B))
         {
-            GetComponent<Renderer().material.color = Color.blue;
+            GetComponent<Renderer>().material.color = Color.blue;
         }
     }
 }
